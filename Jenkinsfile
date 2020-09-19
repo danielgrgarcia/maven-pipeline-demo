@@ -1,6 +1,6 @@
 pipeline {
 	environment {
-		JAVA_TOOL_OPTIONS = "DUser.home=/var/maven"
+		JAVA_TOOL_OPTIONS = "Duser.home=/var/maven"
 	}
 	agent {
 		docker {
